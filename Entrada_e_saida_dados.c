@@ -2,10 +2,10 @@
 
 int main() {
   
-int idade;
+    int idade;
 
-printf("digite sua idade: \n");
-scanf("%d", &idade);
-printf("a idade é: %d\n", idade);
-return 0;
+    printf("digite sua idade: \n");
+    scanf("%d", &idade);
+    printf("a idade é: %d\n", idade);
+    return 0;
 }
