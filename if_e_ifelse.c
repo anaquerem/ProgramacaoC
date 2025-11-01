@@ -6,13 +6,13 @@ int main() {
     unsigned int estoque, estoqueMinimo = 1000;
 
     printf("Entre com a temperatura: \n");
-    scanf("%f, &temperatura");
+    scanf("%f", &temperatura);
 
     printf("Entre com a umidade: \n");
-    scanf("%f, &umidade");
+    scanf("%f", &umidade);
 
     printf("Entre com o estoque: \n");
-    scanf("%u, &estoque");
+    scanf("%u", &estoque);
 
     if (temperatura > 30){
         printf("A temperatura está alta\n");
@@ -32,8 +32,5 @@ int main() {
         printf("Estoque normal");
     }
     
-
-
-
-
+    return 0;
 }
