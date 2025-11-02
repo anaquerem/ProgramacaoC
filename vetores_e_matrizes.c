@@ -4,10 +4,10 @@ int main() {
 
     int index;
 
-    char * nomesAlunos[3][3] =  {
-        {"Aluno 0", "Pt: 30", "Mat: 90"},
-        {"Aluno 1", "Pt: 60", "Mat: 60"},
-        {"Aluno 2", "Pt: 90", "Mat: 30"}
+    char * nomesAlunos[3][5] =  {
+        {"Aluno 0", "Pt: 30", "Mat: 90", "Hist: 80", "Geo: 50"},
+        {"Aluno 1", "Pt: 60", "Mat: 60", "Hist: 70", "Geo: 100"},
+        {"Aluno 2", "Pt: 90", "Mat: 30", "Hist: 40", "Geo: 80"}
     };
 
     printf("Digite o nome do aluno que queira ver as notas... \n");
