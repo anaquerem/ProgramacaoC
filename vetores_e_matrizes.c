@@ -17,7 +17,7 @@ int main() {
 
     scanf("%d", &index);
 
-    printf("A nota do aluno %s são: %s, %s ... \n ", nomesAlunos[index][0], nomesAlunos[index][1], nomesAlunos[index][2]);
+    printf("A nota do aluno %s são: %s, %s, %s, %s ... \n ", nomesAlunos[index][0], nomesAlunos[index][1], nomesAlunos[index][2]);
 
     return 0;
 }
