@@ -7,7 +7,7 @@ int main(){
     do {
 
         printf("Digite um número par para sair do programa...");
-        scantf("%d", &numero);
+        scanf("%d", &numero);
 
         if(numero % 2 == 0){
             printf("%d é par!", numero);
