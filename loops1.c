@@ -8,7 +8,7 @@ int main() {
        
       if( i % 2 == 0)
       {
-         printf("O número %d é par!", i);
+         printf("O número %d é par! \n", i);
       }
       
     i++;
