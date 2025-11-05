@@ -6,18 +6,18 @@ int main(){
 
     do {
 
-        printf("Digite um número par para sair do programa...");
+        printf("Digite um número par para sair do programa... \n");
         scanf("%d", &numero);
 
         if(numero % 2 == 0){
-            printf("%d é par!", numero);
+            printf("%d é par! \n", numero);
         } else {
-            printf("%d é impar!", numero);
+            printf("%d é impar! \n", numero);
         }
 
     } while (numero % 2 != 0);
 
-    printf("Você digitou um número par, saindo do programa...");
+    printf("Você digitou um número par, saindo do programa... \n");
 
 
     return 0;
